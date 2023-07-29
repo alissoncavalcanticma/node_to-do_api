@@ -1,7 +1,7 @@
 {
   "name": "node_api_b7web",
   "version": "1.0.0",
-  "description": "Aula de construção de API com NodeJS da B7WEB",
+  "description": "Exercício de construção de API de lista de tarefas com NodeJS da B7WEB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

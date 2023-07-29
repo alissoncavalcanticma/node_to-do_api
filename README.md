@@ -1,5 +1,5 @@
-# node_api_b7web
-Aula de construção de API com NodeJS da B7WEB
+# nodeto-do_api_b7web
+Exercício de construção de API de lista de tarefas com NodeJS da B7WEB
 
 ## Intall required modules
  - `npm install dotenv express mysql2 sequelize validator `
