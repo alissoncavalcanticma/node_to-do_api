@@ -1,24 +1,8 @@
 import { Router } from "express";
-import * as ApiController from "../controllers/apiController";
+import * as To_do_Controller from '../controllers/To_do.Controller';
 
 const router = Router();
 
-router.get("/ping", ApiController.ping);
-
-router.get("/random", ApiController.random);
-
-router.get("/nome/:nome", ApiController.nome)
-
-//===========================//
-
-router.post("/frases", ApiController.createPhrase);
-
-router.get("/frases", ApiController.listPhrases);
-
-router.get("/frase/:id", ApiController.getPhrase);
-
-router.put("/frase/:id", ApiController.updatePhrase);
-
-router.delete("/frase/:id", ApiController.deletePhrase);
+router.get("/", To_do_Controller.home);
 
 export default router;
