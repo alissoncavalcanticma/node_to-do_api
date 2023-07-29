@@ -26,6 +26,8 @@ server.use(cors({
 server.use(express.static(path.join(__dirname, '../public')));
 server.use(express.urlencoded({extended: true}));
 
+// Definindo para receber body em Json
+server.use(express.json());
 // Definindo o uso o das rotas criadas
 server.use(router);
 
